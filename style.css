@@ -1,14 +1,17 @@
 body{
     margin: 0;
 }
-
-
-.top-banner{
+.top-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
-
-
+.middle-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 100%;
+    margin-bottom: 150px;
+}
 .first-h1{
     font-weight: 900;
 }
@@ -37,6 +40,15 @@ section{
     padding-top: 5%;
 }
 .half-width img{
+    width: 92%;
+}
+.half-width-2{
+    width: 50%;
+    padding-right: 2%;
+    
+}
+.half-width-2 img{
+    padding-left: 5%;
     width: 92%;
 }
 .info-link-button{
