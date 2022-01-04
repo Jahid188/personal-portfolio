@@ -12,6 +12,12 @@ body{
     background-position: right 100%;
     margin-bottom: 150px;
 }
+.lower-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 70%;
+    margin-bottom: 80px;
+}
 .first-h1{
     font-weight: 900;
 }
@@ -31,7 +37,7 @@ h1{
 h2{
     font-size: 30px;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -45,7 +51,17 @@ section{
 .half-width-2{
     width: 50%;
     padding-right: 2%;
-    
+}
+.Experiences{
+    box-shadow: 20px 10px 30px gray;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    border: left solid;
+    border-radius: 10px;
 }
 .half-width-2 img{
     padding-left: 5%;
